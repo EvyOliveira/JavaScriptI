@@ -8,9 +8,9 @@ body{
 }
 
 header{
-	background-color: #333;
+	background-color: #fff79d;
 	height: 3em;
-	color: #FFF;
+	color: white;
 	margin-bottom: 1em;
 }
 
@@ -47,7 +47,7 @@ section h2{
 	font-size: 3em;
 	display: block;
 	padding-bottom: .5em;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid white;
 	margin-bottom: .5em;
 }
 
@@ -61,13 +61,13 @@ table{
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid #ffffc5;
 	text-align: center;
 }
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: white;
 }
 
 label{
@@ -131,4 +131,12 @@ button[disabled=disabled], button:disabled {
 
 .campo-invalido{
 	border: 1px solid red;
+}
+
+.paciente-peso-invalido {
+	background-color: #fdfd96;
+}
+
+.paciente-altura-invalido {
+	background-color: #ffffb5;
 }
