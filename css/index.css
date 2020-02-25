@@ -141,6 +141,6 @@ button[disabled=disabled], button:disabled {
 	background-color: #faefff;
 }
 
-#mensagem-erro {
+#mensagens-erro {
 	color: red;
 }
