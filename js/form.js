@@ -20,6 +20,8 @@ botaoAdicionar.addEventListener("click", function(event) {
 
   tabela.appendChild(pacienteTr);
 
+  adicionaPacienteNaTabela(paciente);
+
   form.reset();
 
   var mensagensErro = document.querySelector("#mensagens-erro");
@@ -72,6 +74,12 @@ function validaPaciente(paciente) {
   if (!validaAltura(paciente.altura)) erros.push("Altura é inválida!");
 
   return erros;
+}
+
+function adicionaPacienteNaTabela(paciente) {
+  var pacienteTr = montaTr(paciente);
+  var tabela = document.querySelector("#tabela-pacientes");
+  tabela.appendChild(pacienteTr);
 }
 
 function exibeMensagensDeErro(erros) {
