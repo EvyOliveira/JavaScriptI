@@ -8,9 +8,9 @@ body{
 }
 
 header{
-	background-color: #FFFFF0;
+	background-color: #9f82b2;
 	height: 3em;
-	color: black;
+	color: white;
 	margin-bottom: 1em;
 }
 
@@ -61,7 +61,7 @@ table{
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ffffc5;
+	border: 1px solid #f3d9f3;
 	text-align: center;
 }
 
@@ -105,8 +105,8 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	background-color:#c2a9d0;
+	border-color: #9885a2;
 	width: 20%;
     display: block;
     clear: both;
@@ -134,9 +134,18 @@ button[disabled=disabled], button:disabled {
 }
 
 .paciente-peso-invalido {
-	background-color: #FFFFE0;
+	background-color: #ecdfeb;
 }
 
 .paciente-altura-invalido {
-	background-color: #FFFACD;
+	background-color: #faefff;
+}
+
+#mensagens-erro {
+	color: red;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
 }
